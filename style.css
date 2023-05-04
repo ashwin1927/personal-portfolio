@@ -108,9 +108,7 @@ a {
 	display: inline-flex;
 	align-items: center;
 	width: fit-content;
-	position: relative;
 	top: 0;
-  
 }
 
 a::before {
