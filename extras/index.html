@@ -20,66 +20,49 @@
 
 		<div class="section-row">
 			<div class="section-col">
-				<div class="section">
+				<div onclick="window.open('/extras/play', '_blank');" class="section">
 					<div class="section-in">
-						<img src="https://assets.codepen.io/1462889/sl1.jpg" alt="">
+						<img src="/media/extras/flappy.jpg" alt="flappy_bird">
 					</div>
 				</div>
 			</div>
 			<div class="hover-text">
-				<h2>Male Goofy Face</h2>
+				<h2>Flappy Bird Game</h2>
+			</div>
+			<div class="section-col">
+				<div onclick="window.open('https://matias.ma/nsfw/', '_blank');" class="section">
+					<div class="section-in">
+						<img src="/media/extras/matias.png" alt="matias.ma">
+					</div>
+				</div>
+			</div>
+      <div class="hover-text">
+				<h2>Conga!</h2>
+			</div>
+
+
+
+      
+    <div class="section-col">
+				<div class="section">
+					<div class="section-in">
+						<img src="/media/extras/flappy.jpg" alt="flappy_bird">
+					</div>
+				</div>
+			</div>
+			<div class="hover-text">
+				<h2>Flappy Bird Game</h2>
 			</div>
 			<div class="section-col">
 				<div class="section">
 					<div class="section-in">
-						<img src="https://assets.codepen.io/1462889/sl2.jpg" alt="">
+						<img src="/media/extras/matias.png" alt="matias.ma">
 					</div>
 				</div>
 			</div>
-			<div class="hover-text">
-				<h2>Toy Pig</h2>
+      <div class="hover-text">
+				<h2>Matias.ma</h2>
 			</div>
-			<div class="section-col">
-				<div class="section">
-					<div class="section-in">
-						<img src="https://assets.codepen.io/1462889/sl3.jpg" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="hover-text">
-				<h2>Shy Portrait</h2>
-			</div>
-			<div class="section-col">
-				<div class="section">
-					<div class="section-in">
-						<img src="https://assets.codepen.io/1462889/sl4.jpg" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="hover-text">
-				<h2>Skateboard Face</h2>
-			</div>
-			<div class="section-col">
-				<div class="section">
-					<div class="section-in">
-						<img src="https://assets.codepen.io/1462889/sl5.jpg" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="hover-text">
-				<h2>Mirror Reflection</h2>
-			</div>
-			<div class="section-col">
-				<div class="section">
-					<div class="section-in">
-						<img src="https://assets.codepen.io/1462889/sl6.jpg" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="hover-text">
-				<h2>Funny Bunny</h2>
-			</div>
-		</div>
 
 		<a href="/" class="logo" target="_blank">
 			<img src="/media/favicon.svg" alt="smiley">
@@ -296,5 +279,32 @@ width: auto;
 }
 
 </style>
+
+  <script>
+    // your list of allowed usernames
+var usernames = [
+'joe',
+'mary'
+];
+
+// prompt username, usually you use a form, or other UI but prompt() is simple
+var username = prompt('Enter Your Username');
+
+// iterate through each item in your list with the username 
+
+var auth = false;
+for (var i = 0; i < usernames.length; i++) {
+if ( usernames[i] == username) {
+auth = true;
+break;
+}
+}
+
+If (auth == true) {
+alert('you have access');
+} else {
+alert('no access');
+}
+  </script>
 
  </html>
