@@ -280,31 +280,5 @@ width: auto;
 
 </style>
 
-  <script>
-    // your list of allowed usernames
-var usernames = [
-'joe',
-'mary'
-];
-
-// prompt username, usually you use a form, or other UI but prompt() is simple
-var username = prompt('Enter Your Username');
-
-// iterate through each item in your list with the username 
-
-var auth = false;
-for (var i = 0; i < usernames.length; i++) {
-if ( usernames[i] == username) {
-auth = true;
-break;
-}
-}
-
-If (auth == true) {
-alert('you have access');
-} else {
-alert('no access');
-}
-  </script>
 
  </html>
