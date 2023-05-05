@@ -4,7 +4,7 @@
 A simple Portfolio website i made to establish my online presence
 
 
-![Logo](https://ashwinn.xyz/media/pfp.jpg)
+![Logo](https://ashwinn.xyz/media/pfp.jpg=250x250))
 
 
 ## ✨ About Me
