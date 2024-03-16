@@ -477,6 +477,10 @@ section {
 	background-image: url('media/projects/videntstudios.png');
 }
 
+.projects .col .project.ingrain {
+	background-image: url('media/projects/ingrain.png');
+}
+
 
 
 .contact {
