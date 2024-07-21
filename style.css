@@ -481,7 +481,9 @@ section {
 	background-image: url('media/projects/ingrain.png');
 }
 
-
+.projects .col .project.veda {
+	background-image: url('media/projects/veda.png');
+}
 
 .contact {
 	gap: 16px;
