@@ -544,7 +544,7 @@ section {
 
 	.projects .col .project {
 		width: 556px;
-		height: 556px;
+        height: 345px;
 	}
 
 	.contact .theme-button { left: 16px; }
@@ -576,7 +576,7 @@ section {
 
 	.projects .col .project {
 		width: calc(84vw - 36px);
-		height: calc(84vw - 36px);
+        height: calc(84vw - 146px);
 	}
 
 	.side.x {
